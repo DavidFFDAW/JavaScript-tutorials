@@ -49,15 +49,15 @@ The table of contents are:
   -  Singleton.
   -  Module Pattern (Node).
   -  SOLID.
-      - SRP
-      - OCP
-      - LSP
-      - ISP
-      - DIP
+      - SRP `(Single Responsibility Principle)`.
+      - OCP `(Open Closed Principle)`.
+      - LSP `(Liskov Substitution Principle)`.
+      - ISP `(Interface Segregation Principle)`.
+      - DIP `(Dependency Inversion Principle)`.
 
 ### Popular Principles
-  - KISS: Keep It Simple, Stupid.
-  - YAGNI: You Aren't Gonna Need It.
-  - DRY: Don't Repeat Yourself.
-  - DYC: Document Your Code. (meaningfully).
-  - RYC: Refactor Your Code.
+  - `KISS`: Keep It Simple, Stupid.
+  - `YAGNI`: You Aren't Gonna Need It.
+  - `DRY`: Don't Repeat Yourself.
+  - `DYC`: Document Your Code. (meaningfully).
+  - `RYC`: Refactor Your Code.
