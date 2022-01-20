@@ -48,6 +48,7 @@ The table of contents are:
 ### Patterns
   -  Singleton.
   -  Module Pattern (Node).
+  -  Dependency Injection Pattern.
   -  SOLID.
       - SRP `(Single Responsibility Principle)`.
       - OCP `(Open Closed Principle)`.
