@@ -13,6 +13,7 @@ The table of contents are:
   -  Variables.
   -  Types of variables.
   -  Why not to use `var`.
+  -  String Methods.
   -  Functions.
   -  Types of functions.
   -  Understanding Scope.
