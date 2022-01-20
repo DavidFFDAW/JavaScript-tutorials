@@ -18,6 +18,7 @@ The table of contents are:
   -  Understanding Scope.
   -  Objects in JS.
   -  Object Oriented Programming in JS.
+  -  The ```this``` Big Issue.
   -  Should I or shouldn't I use OOP in JS?
   -  Objects VS Classes: The comparative.
   -  Examples.
