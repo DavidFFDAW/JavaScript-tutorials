@@ -6,6 +6,7 @@ The table of contents are:
 ### Contents
 
   -  Before starting.
+  -  Importance of Clean Code.
   -  Important concepts.
   -  JavaScript: What is it?
   -  Native Types.
@@ -42,3 +43,21 @@ The table of contents are:
   -  NodeJS and Execution.
   -  Develop Server API using JavaScript.
   -  Popular Frameworks
+
+
+### Patterns
+  -  Singleton.
+  -  Module Pattern (Node).
+  -  SOLID.
+      - SRP
+      - OCP
+      - LSP
+      - ISP
+      - DIP
+
+### Popular Principles
+  - KISS: Keep It Simple, Stupid.
+  - YAGNI: You Aren't Gonna Need It.
+  - DRY: Don't Repeat Yourself.
+  - DYC: Document Your Code. (meaningfully).
+  - RYC: Refactor Your Code.
