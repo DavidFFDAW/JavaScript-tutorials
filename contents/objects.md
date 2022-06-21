@@ -47,7 +47,7 @@ Si no conocemos el nombre de la propiedad o es un nombre variable que viene desd
 ```
 </br>
 
-### Comprobación si la propiedad existe:
+### 2.2. Comprobación si la propiedad existe:
 
 Para evitar posibles errores o valores `undefined` podemos tener en cuenta si la propiedad existe y si no existe devolver un valor por defecto en su lugar. Aunque esto ya depende un poco más de la lógica que se quiera implementar.
 
@@ -72,7 +72,7 @@ Utilizando la comprobación por valor y el [`operador de cortocircuito`](https:/
 </br>
 
 
-### Como obtengo solo las propiedades:
+### 2.3. Como obtengo solo las propiedades:
 
 Pongamos que del objeto original quiero obtener un array con todas las `keys` que tiene dicho objeto para utilizarlas posteriormente en alguna otra función.
 
@@ -82,7 +82,7 @@ Podríamos hacerlo con un `for (... in superObj)` e ir almacenando en un array i
     Object.keys(superObj) // <-- ['name','surname','age','job']
 ```
 
-### Como obtengo solo los valores:
+### 2.4. Como obtengo solo los valores:
 
 Aplicando la lógica anterior también existe un método nativo que nos permite obtener solo los valores de un objeto:
 
@@ -94,9 +94,41 @@ Aplicando la lógica anterior también existe un método nativo que nos permite 
 
 ## 3. Declaración de propiedades:
 
+Para declarar nuevas propiedades se utiliza una sintaxis similar a la que usamos para acceder a las propiedades.
+
+
 ### 3.1 Como declaro una nueva propiedad:
 
-### 3.2 Que pasa si declaro dos veces una propiedad:
+Para añadir una nueva propiedad `id` con su respectivo valor hay varias formas de hacerlo como se muestra a continuación:
+
+
+```javascript
+    // Forma 1
+    superObj.id = 'a3f5c896-7f48-4212-9931-d6e6b753cff3';
+
+    // Forma 2
+    superObj['id'] = 'a3f5c896-7f48-4212-9931-d6e6b753cff3';
+```
+
+En cualquier caso el resultado será que el objeto anterior tendrá una nueva propiedad `id` con el valor `a3f5c896-7f48-4212-9931-d6e6b753cff3`.
+
+</br>
+
+### 3.2. Spread Operator `(...)` con objetos:
+
+Al utilizar este operador podremos recoger los elementos de un conjunto iterable (en este caso un objeto) y lo podremos utilizar por ejemplo para clonar el contenido de un objeto en otro añadiendo nuevas propiedades:
+
+```javascript
+    const obj = { name: 'Example' }
+    const objNew = { ...obj, id: 396840 };
+
+    console.log(obj); // <-- { name: 'Example' }
+    console.log(objNew); // <-- { name: 'Example', id: 396840 }
+```
+
+</br>
+
+### 3.3. Que pasa si declaro dos veces una propiedad:
 
 Teniendo un objeto ya declarado como el inicial con el que estamos trabajando y vuelvo a declarar una propiedad como por ejemplo el nombre con la misma `key` lo que haremos será sobreescribir el valor que tuviera esta almacenada anteriormente.
 
@@ -113,8 +145,3 @@ A continuación se muestra un ejemplo de este comportamiento:
     console.log(superObj.name); // <-- Manolo
 
 ```
-
-
-</br>
-
-## Rizando el rizo
