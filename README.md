@@ -19,7 +19,7 @@ The table of contents are:
   -  Types of functions.
   -  Understanding Scope.
   -  Recursiveness in Functions.
-  -  Objects in JS.
+  -  [Objects in JS](/contents/objects.md).
   -  Object Oriented Programming in JS.
   -  The ```this``` Big Issue.
   -  Should I or shouldn't I use OOP in JS?
