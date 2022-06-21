@@ -15,7 +15,7 @@ The table of contents are:
   -  Types of variables.
   -  Why not to use `var`.
   -  String Methods.
-  -  Functions.
+  -  [Functions](/contents/functions.md).
   -  Types of functions.
   -  Understanding Scope.
   -  Recursiveness in Functions.
