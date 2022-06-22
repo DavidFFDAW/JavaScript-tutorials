@@ -17,7 +17,13 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 </br>
 
-<div style="display: flex; justify-content: space-between; align-items: center">
-    <a href="/contents/cleancode.md">← Clean Code</a>
-    <a href="/contents/nativetypes.md">¿Importan los tipos nativos? →</a>
+<div style="position: absolute; width: 90% ;height: 50px">
+    <a href="/contents/cleancode.md" 
+        style="position: relative; left: 0;">
+        ← Clean Code
+    </a>
+    <a href="/contents/nativetypes.md"
+        style="position: absolute; right: 0;">
+        Tipos Nativos →
+    </a>
 </div>
