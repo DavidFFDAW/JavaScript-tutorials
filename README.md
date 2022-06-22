@@ -5,10 +5,12 @@ The table of contents are:
 
 ### Contents
 
-  -  Before starting.
-  -  Importance of Clean Code.
-  -  Important concepts.
-  -  JavaScript: What is it?
+  <!-- -  Before starting. -->
+  <!-- -  JavaScript: What is it? -->
+  <!-- -  Types of functions. -->
+  <!-- -  Understanding Scope. -->
+  <!-- -  Important concepts. -->
+  -  [Clean Code.](/contents/cleancode.md)
   -  Native Types.
   -  Why I don't care about native types.
   -  Variables.
@@ -16,12 +18,10 @@ The table of contents are:
   -  Why not to use `var`.
   -  String Methods.
   -  [Functions](/contents/functions.md).
-  -  Types of functions.
-  -  Understanding Scope.
   -  Recursiveness in Functions.
-  -  [Objects in JS](/contents/objects.md).
+  -  [Objects](/contents/objects.md).
   -  Object Oriented Programming in JS.
-  -  The ```this``` Big Issue.
+  -  The `this` Big Issue.
   -  Should I or shouldn't I use OOP in JS?
   -  Objects VS Classes: The comparative.
   -  Examples.
