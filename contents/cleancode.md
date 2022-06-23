@@ -171,5 +171,5 @@ El propio código debería ser autoexplicativo y no debería requerir que yo dej
 
 <div style="position: absolute; right: 30px; height: 50px">
     <span style="position: relative; left: 0;"></span>
-    <a style="position: relative; right: 0;" href="/contents/nativetypes.md">Tipos Nativos →</a>
+    <a style="position: relative; right: 0;" href="/contents/nativetypes.md">Variables →</a>
 </div>

@@ -10,22 +10,21 @@ The table of contents are:
   <!-- -  Types of functions. -->
   <!-- -  Understanding Scope. -->
   <!-- -  Important concepts. -->
+  <!-- -  Native Types. -->
+  <!-- -  Why I don't care about native types. -->
   -  [Clean Code.](/contents/cleancode.md)
-  -  Native Types.
-  -  Why I don't care about native types.
-  -  Variables.
-  -  Types of variables.
-  -  Why not to use `var`.
-  -  String Methods.
+  -  [Variables](/contents/variables.md).
+  -  [String Methods](/contents/stringmethods.md).
   -  [Functions](/contents/functions.md).
-  -  Recursiveness in Functions.
+  -  [Recursiveness in Functions](/contents/recursivity.md).
   -  [Objects](/contents/objects.md).
   -  Object Oriented Programming in JS.
   -  The `this` Big Issue.
   -  Should I or shouldn't I use OOP in JS?
   -  Objects VS Classes: The comparative.
+  -  [Class Prototypes](/contents/prototypes.md).
   -  Examples.
-  -  The Array Class.
+  -  Arrays.
   -  Concept of Array Mutation.
   -  Importance of Immutability.
   -  Array Methods.
