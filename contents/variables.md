@@ -101,11 +101,11 @@ Pues bien la respuesta a esta pregunta es bien sencilla y es que lo recomendable
 
 <div style="position: absolute; width: 90% ;height: 50px">
     <a href="/contents/cleancode.md" 
-        style="position: relative; left: 0;">
+        style="float: left;">
         ← Clean Code
     </a>
     <a href="/contents/stringmethods.md"
-        style="position: absolute; right: 0;">
+        style="float: right;">
         String Functions →
     </a>
 </div>
